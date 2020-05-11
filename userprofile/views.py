@@ -1,10 +1,8 @@
 from django.contrib.auth.models import User
-
 from django.shortcuts import render,redirect
 from django.contrib.auth import login,authenticate,logout
 from django.http import HttpResponse, JsonResponse
 from django.views import View
-
 from .form import UserLoginForm,UserRegisterForm
 from django.contrib.auth.decorators import login_required
 
@@ -66,7 +64,7 @@ def user_register(request):
                 login(request,new_user)
                 return redirect('article:article_list')
         msg = user_register_form.errors
-        return JsonResponse(msg, ensure_ascii=False)
+        return HttpResponse('输入密码不一致，请重新输入')
     elif request.method == 'GET':
         user_register_form = UserRegisterForm()
         context = { 'form':user_register_form }

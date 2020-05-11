@@ -1,5 +1,5 @@
 from django.db import models
-
+from ckeditor.fields import RichTextField
 from django.contrib.auth.models import User
 #timezone 用来处理时间相关的事务
 from django.utils import timezone
@@ -27,7 +27,7 @@ class Article(models.Model):
 
     title  = models.CharField(max_length=100)
 
-    content= models.TextField()
+    content= RichTextField()
 
     created= models.DateTimeField(default=timezone.now)
     #文章的更新时间，auto_now=True用于指定每次更新时自动写入当前时间

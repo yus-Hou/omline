@@ -1,0 +1,88 @@
+WARNING 2020-05-08 01:03:31,517 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 01:03:31,648 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 01:16:35,121 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 02:08:12,379 log 18382 140340824319808 Bad Request: /cache/global/img/gs.gif
+WARNING 2020-05-08 02:48:56,091 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 02:51:52,603 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 03:39:39,402 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 04:57:29,742 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 05:06:39,456 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 05:52:58,761 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 06:04:22,830 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 07:32:48,911 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 08:03:49,430 log 18382 140340824319808 Bad Request: /portal/redlion
+WARNING 2020-05-08 08:14:31,179 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 08:33:14,592 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 09:12:33,701 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 09:58:56,536 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 09:58:56,549 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 10:41:35,752 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 10:56:54,550 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 10:58:32,812 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 10:58:32,823 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 11:51:44,423 log 18382 140340824319808 Bad Request: /cache/global/img/gs.gif
+WARNING 2020-05-08 13:06:00,076 log 18382 140340824319808 Bad Request: /
+WARNING 2020-05-08 13:51:51,679 log 18382 140340824319808 Not Found: /favicon.ico
+WARNING 2020-05-08 13:52:13,571 log 18382 140340824319808 Not Found: /favicon.ico
+WARNING 2020-05-08 13:52:29,832 log 18382 140340824319808 Not Found: /favicon.ico
+ERROR 2020-05-08 13:56:23,772 log 18382 140340824319808 Internal Server Error: /userprofile/register/
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/userprofile/views.py", line 69, in user_register
+    return JsonResponse(msg, ensure_ascii=False)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/http/response.py", line 559, in __init__
+    super().__init__(content=data, **kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/http/response.py", line 289, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ensure_ascii'
+ERROR 2020-05-08 13:57:46,717 log 18382 140340824319808 Internal Server Error: /userprofile/register/
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/userprofile/views.py", line 69, in user_register
+    return JsonResponse(msg, ensure_ascii=False)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/http/response.py", line 559, in __init__
+    super().__init__(content=data, **kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/http/response.py", line 289, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ensure_ascii'
+ERROR 2020-05-08 14:38:59,262 log 18382 140340824319808 Internal Server Error: /userprofile/register/
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/userprofile/views.py", line 69, in user_register
+    return JsonResponse(msg, ensure_ascii=False)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/http/response.py", line 559, in __init__
+    super().__init__(content=data, **kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/http/response.py", line 289, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ensure_ascii'
+WARNING 2020-05-08 15:30:08,576 log 5417 140340824319808 Bad Request: /
+WARNING 2020-05-08 15:30:08,613 log 5417 140340824319808 Bad Request: /
+WARNING 2020-05-08 15:36:09,505 log 5417 140340824319808 Bad Request: /
+WARNING 2020-05-08 15:49:08,877 log 5417 140340824319808 Bad Request: /
+WARNING 2020-05-08 16:23:50,845 log 5417 140340824319808 Bad Request: /
+WARNING 2020-05-08 16:23:50,984 log 5417 140340824319808 Bad Request: /
+WARNING 2020-05-08 18:28:56,806 log 5417 140340824319808 Bad Request: /
+WARNING 2020-05-08 19:12:53,056 log 5417 140340824319808 Bad Request: /
+WARNING 2020-05-08 19:15:42,704 log 5417 140340824319808 Bad Request: /
+WARNING 2020-05-08 20:02:56,477 log 5417 140340824319808 Bad Request: /echo.php
+WARNING 2020-05-08 20:28:42,264 log 5417 140340824319808 Bad Request: /
+WARNING 2020-05-08 20:28:42,407 log 5417 140340824319808 Bad Request: /
+WARNING 2020-05-08 20:28:42,622 log 5417 140340824319808 Bad Request: /
+WARNING 2020-05-08 22:36:59,152 log 5417 140340824319808 Bad Request: /
+WARNING 2020-05-08 23:29:15,304 log 5417 140340824319808 Bad Request: /
+WARNING 2020-05-08 23:57:56,398 log 5417 140340824319808 Bad Request: /

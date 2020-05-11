@@ -34,11 +34,11 @@ def article_index(request):
 
     hot = article_list.order_by('-total_views')[0]
 
-    admincol = article_list.filter(column_id=5)[0]
+    admincol = article_list.filter(column_id=2)[0]
 
-    adminnews = article_list.filter(column_id=6)[0]
+    adminnews = article_list.filter(column_id=1)[0]
 
-    indexnews = article_list.filter(column_id=6)
+    indexnews = article_list.filter(column_id=1)
 
     # paginator = Paginator(article_list, 5)
     # #获取url中的页码
@@ -64,7 +64,7 @@ def article_list(request):
     column = request.GET.get('column')
     tag    = request.GET.get('tag')
 
-    article_list = Article.objects.exclude(column_id=6)
+    article_list = Article.objects.all()
 
     if search:
 
@@ -162,7 +162,7 @@ def article_create(request):
         article_post_form = ArticleForm()
         columns = ArticleColumn.objects.exclude(
             Q(title='站点公告')|
-            Q(title='最新资讯'))
+            Q(title='python'))
         admincols = ArticleColumn.objects.all()
 
 

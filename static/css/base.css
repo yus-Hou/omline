@@ -56,7 +56,7 @@
 		a:active,
 		a:focus {
 		    color: #c00;
-		    text-decoration: underline;
+		    text-decoration: none;
 		}
         .w {
             width: 1200px;

@@ -33,7 +33,12 @@
 						<a href="#">more</a>
 						<div class="cards-text">
 							<p class="text-img">
-								<img src="{{ adminnews.avatar.url }}"  alt="..." width="284px" height="157px">
+								<img src="{% if adminnews.avatar%}
+						        {{ adminnews.avatar.url }}
+						  {% else %}
+						        {% static 'images/zwtp.jfif' %}
+						  {% endif %}"
+                                 alt="..." width="284px" height="157px">
 							</p>
 							<p class="text-title">
 								<a href="{% url 'article:article_detail' adminnews.id  %}">
@@ -72,7 +77,7 @@
 				<li class="col-4">
 					<h3 class="title">
 						<b>站点公告</b>
-						<a href="{% url 'article:article_list' %}?column=5">more</a>
+						<a href="{% url 'article:article_list' %}?column=2">more</a>
 						<div class="news-text">
 							<p class="text-img">
 								<img src="{{ admincol.avatar.url }}"  alt="..." width="284px" height="157px">
@@ -119,7 +124,7 @@
 						</a>
 						<a href="{% url 'article:article_detail' article.id%}" class="second">
 							<p>
-								{{ article.content | slice:'50' }}...
+								{{ article.content|slice:'50' }}...
 							</p>
 						</a>
 					</div>
@@ -138,37 +143,7 @@
 
 
 
-			<li class="clearfix">
-				<div class="news-img">
-					<a href="#">
-						<img src="{% static 'images/news3.jpg' %}" style="width: 284px; height: 157px;" >
-					</a>
-				</div>
-				<div class="text">
-					<div class="news-text">
-						<a href="#" class="first">
-							<p>
-								百万岗位虚位以待，全国首个城市网络招聘节在嘉兴开幕
-							</p>
-						</a>
-						<a href="#" class="second">
-							<p>
-								2月22日下午，由嘉兴市人民政府主办的“嘉兴万家企业百万岗位网络招聘节”正式启动。包括五芳斋等名企在内的上万家企业将为全国求职者在线提供超过一百万个就业岗位，通过网络搭台，用工双方实现“无接触高效招聘
-							</p>
-						</a>
-					</div>
-					<div class="news-info">
-						<p>
-							人民网-浙江频道
-						</p>
-						<em>·</em>
-						<span class="time">
-							2020-02-29
-						</span>
-					</div>
-				</div>
-			</li>
-
+			
 
 		</ul>
 	</div>

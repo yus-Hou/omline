@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '%x#u%3slfv*v53rrmg6=2zgffdq3ensa_iaclxh#d($6(luckl'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 #允许的服务器
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['www.hysong.club']
 
 # 静态文件收集目录
 STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
@@ -251,8 +251,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': "my_blog",
-        'USER': "root",
-        'PASSWORD': "root",
+        'USER': "django",
+        'PASSWORD': "django-user-password",
         'HOST': "LocalHost",
     }
 }
@@ -282,7 +282,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'zh-hans'
 
-TIME_ZONE = 'ASIA/Shanghai'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 

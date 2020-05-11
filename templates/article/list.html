@@ -156,7 +156,7 @@ html, body {
             <!-- 标题 -->
             <h4 >
                 <b>
-                    <a href="{% url 'article:article_detail' article.id %}">
+                    <a href="{% url 'article:article_detail' article.id %}" style="text-decoration: none;">
                         {{ article.title }}
                     </a>
                 </b>
@@ -164,7 +164,7 @@ html, body {
             <!-- 摘要 -->
             <div>
                 <p style="color: #1b1e21;">
-                    {{ article.content|slice:'100' }}...
+                    {{ article.content|slice:'50'}}...
                 </p>
             </div>
             <!-- 注脚 -->

@@ -3,9 +3,17 @@
 {% block content %}
 
 <style>
-    label{
+    label, span{
         color: #000;
         font-size: 16px;
+    }
+    label{
+            display: inline-block;
+				height: 30px;
+				width: 120px;
+				text-align: center;
+				line-height: 30px;
+				border-left: 5px solid #00BFFF;
     }
     .w form div{
         margin-bottom: 25px;
@@ -51,7 +59,17 @@
                 <div class="form-group">
                     <label for="content">文章正文</label>
                     <!-- 文本域不需要 value 属性，直接在标签体中嵌入数据即可 -->
-                    <textarea type="text" class="form-control" id="content" name="content" rows="12">{{ article.content }}</textarea>
+                    
+                    <div style="padding-left: 16px">
+                        {% if article.content %}
+                        <div style="border: 1px solid #eee; padding-left: 20px;">
+                            <span>当前内容：</span>
+                            {{ article.content | safe }}
+                        </div>
+                        {% endif %}
+                        {{ article_post_form.media }}
+                        {{ article_post_form.content }}
+                    </div>
                 </div>
                 <button type="submit" class="btn btn-primary">完成</button>
             </form>

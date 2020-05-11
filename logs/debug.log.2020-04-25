@@ -1,0 +1,1299 @@
+WARNING 2020-04-05 17:13:08,780 log 9604 10112 Not Found: /favicon.ico
+WARNING 2020-04-05 19:33:38,893 log 1656 13752 Not Found: /article/images/header.png
+WARNING 2020-04-05 19:37:30,235 log 1656 8832 Not Found: /article/static/css/base.css
+WARNING 2020-04-05 19:37:30,316 log 1656 8832 Not Found: /article/static/images/header.png
+WARNING 2020-04-05 19:39:19,753 log 1656 12704 Not Found: /article/static/images/header.png
+WARNING 2020-04-05 19:39:50,034 log 1656 11048 Not Found: /article/static/images/header.png
+WARNING 2020-04-05 19:55:44,353 log 1656 11732 Not Found: /article/article_list/index.html
+WARNING 2020-04-05 21:04:55,542 log 1656 4912 Not Found: /article/article_update/images/bg2.png/
+WARNING 2020-04-05 21:05:06,563 log 1656 4912 Not Found: /article/article_update/images/bg2.png/
+WARNING 2020-04-05 21:05:13,671 log 1656 4912 Not Found: /article/article_update/images/bg2.png/
+WARNING 2020-04-05 22:44:45,687 log 1656 11836 Not Found: /article/article_list/index.html
+ERROR 2020-04-25 11:30:15,276 log 1259 139730324498240 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/article/views.py", line 33, in article_index
+    news = article_list.order_by('-created')[0]
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/query.py", line 309, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR 2020-04-25 11:31:22,904 log 1259 139730324498240 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/article/views.py", line 33, in article_index
+    news = article_list.order_by('-created')[0]
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/query.py", line 309, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR 2020-04-25 11:32:17,863 log 1259 139730324498240 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/article/views.py", line 33, in article_index
+    # news = article_list.order_by('-created')[0]
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/query.py", line 309, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR 2020-04-25 11:32:55,180 log 1259 139730324498240 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/article/views.py", line 33, in article_index
+    # news = article_list.order_by('-created')[0]
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/query.py", line 309, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR 2020-04-25 11:33:35,613 log 1259 139730324498240 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/article/views.py", line 33, in article_index
+    # news = article_list.order_by('-created')[0]
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/query.py", line 309, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+WARNING 2020-04-25 11:33:51,009 log 1634 140263573788480 Bad Request: /
+WARNING 2020-04-25 11:34:56,657 log 1634 140263573788480 Bad Request: /
+WARNING 2020-04-25 11:35:23,346 log 1634 140263573788480 Bad Request: /
+WARNING 2020-04-25 11:40:57,745 log 1634 140263573788480 Bad Request: /
+ERROR 2020-04-25 11:41:44,572 log 1978 140402881587008 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/article/views.py", line 53, in article_index
+    context  = {'articles':articles, 'news': news, 'hot': hot, 'admincol': admincol, 'adminnews':adminnews, 'indexnews': indexnews}
+NameError: name 'news' is not defined
+ERROR 2020-04-25 11:43:10,980 log 2151 140078842124096 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/article/views.py", line 56, in article_index
+    return render(request, 'article/index.html', context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/urls/resolvers.py", line 660, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'article_detail' with arguments '('',)' not found. 1 pattern(s) tried: ['article\\/article_detail\\/(?P<id>[0-9]+)\\/$']
+WARNING 2020-04-25 11:46:57,550 log 2151 140078842124096 Bad Request: /
+WARNING 2020-04-25 11:46:57,603 log 2151 140078842124096 Bad Request: /
+WARNING 2020-04-25 11:46:57,657 log 2151 140078842124096 Bad Request: /
+WARNING 2020-04-25 11:47:28,351 log 2151 140078842124096 Bad Request: /HNAP1/
+WARNING 2020-04-25 11:47:28,402 log 2151 140078842124096 Bad Request: /HNAP1/
+WARNING 2020-04-25 11:47:28,658 log 2151 140078842124096 Bad Request: /sqlite/main.php
+WARNING 2020-04-25 11:47:28,713 log 2151 140078842124096 Bad Request: /sqlite/main.php
+WARNING 2020-04-25 11:47:28,779 log 2151 140078842124096 Bad Request: /sqlite/main.php
+WARNING 2020-04-25 11:47:28,832 log 2151 140078842124096 Bad Request: /sqlitemanager/main.php
+WARNING 2020-04-25 11:47:28,888 log 2151 140078842124096 Bad Request: /sqlitemanager/main.php
+WARNING 2020-04-25 11:47:28,944 log 2151 140078842124096 Bad Request: /sqlitemanager/main.php
+WARNING 2020-04-25 11:47:29,009 log 2151 140078842124096 Bad Request: /SQLiteManager/main.php
+WARNING 2020-04-25 11:47:29,078 log 2151 140078842124096 Bad Request: /SQLiteManager/main.php
+WARNING 2020-04-25 11:47:29,130 log 2151 140078842124096 Bad Request: /SQLiteManager/main.php
+WARNING 2020-04-25 11:47:29,193 log 2151 140078842124096 Bad Request: /SQLite/main.php
+WARNING 2020-04-25 11:47:32,279 log 2151 140078842124096 Bad Request: /SQLite/main.php
+WARNING 2020-04-25 11:47:32,332 log 2151 140078842124096 Bad Request: /SQLite/main.php
+WARNING 2020-04-25 11:47:32,386 log 2151 140078842124096 Bad Request: /SQlite/main.php
+WARNING 2020-04-25 11:47:32,450 log 2151 140078842124096 Bad Request: /SQlite/main.php
+WARNING 2020-04-25 11:47:32,515 log 2151 140078842124096 Bad Request: /SQlite/main.php
+WARNING 2020-04-25 11:47:32,565 log 2151 140078842124096 Bad Request: /main.php
+WARNING 2020-04-25 11:47:32,616 log 2151 140078842124096 Bad Request: /main.php
+WARNING 2020-04-25 11:47:32,680 log 2151 140078842124096 Bad Request: /main.php
+WARNING 2020-04-25 11:47:32,733 log 2151 140078842124096 Bad Request: /test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php
+WARNING 2020-04-25 11:47:32,784 log 2151 140078842124096 Bad Request: /test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php
+WARNING 2020-04-25 11:47:32,838 log 2151 140078842124096 Bad Request: /test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php
+WARNING 2020-04-25 11:47:32,890 log 2151 140078842124096 Bad Request: /SQLiteManager-1.2.4/main.php
+WARNING 2020-04-25 11:47:32,948 log 2151 140078842124096 Bad Request: /SQLiteManager-1.2.4/main.php
+WARNING 2020-04-25 11:47:33,002 log 2151 140078842124096 Bad Request: /SQLiteManager-1.2.4/main.php
+WARNING 2020-04-25 11:47:36,073 log 2151 140078842124096 Bad Request: /agSearch/SQlite/main.php
+WARNING 2020-04-25 11:47:36,127 log 2151 140078842124096 Bad Request: /agSearch/SQlite/main.php
+WARNING 2020-04-25 11:47:36,184 log 2151 140078842124096 Bad Request: /agSearch/SQlite/main.php
+ERROR 2020-04-25 11:53:18,422 log 2493 140359333844800 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/article/views.py", line 33, in article_index
+    news = article_list.order_by('-created')[0]
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/query.py", line 309, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR 2020-04-25 12:08:53,928 log 2592 139918279276352 Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/article/views.py", line 37, in article_index
+    admincol = article_list.filter(column_id=5)[0]
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/query.py", line 309, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+WARNING 2020-04-25 12:09:07,471 log 2592 139918279276352 Not Found: /index.html
+WARNING 2020-04-25 12:17:29,486 log 3148 140431072995136 Not Found: /index.html
+WARNING 2020-04-25 13:10:24,377 log 6103 140260694980416 Bad Request: /cache/global/img/gs.gif
+WARNING 2020-04-25 13:43:23,691 log 6103 140260694980416 Not Found: /favicon.ico
+WARNING 2020-04-25 13:45:06,477 log 6103 140260694980416 Bad Request: /
+WARNING 2020-04-25 13:46:16,352 log 6103 140260694980416 Bad Request: /
+WARNING 2020-04-25 14:50:39,913 log 6287 139890779354944 Bad Request: /
+ERROR 2020-04-25 15:54:30,717 log 10269 140340824319808 Internal Server Error: /article/article_list/
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/urls/base.py", line 75, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'http'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/article/views.py", line 101, in article_list
+    return render(request, 'article/list.html', context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader_tags.py", line 188, in render
+    return template.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 173, in render
+    return self._render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/defaulttags.py", line 309, in render
+    return nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/urls/base.py", line 86, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'http' is not a registered namespace
+ERROR 2020-04-25 15:55:34,818 log 10526 140340824319808 Internal Server Error: /article/article_list/
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/article/views.py", line 101, in article_list
+    return render(request, 'article/list.html', context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader_tags.py", line 176, in render
+    template = context.template.engine.get_template(template_name)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loaders/cached.py", line 54, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/defaulttags.py", line 952, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/defaulttags.py", line 952, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '://www.hysong.club/admin/' from 'http://www.hysong.club/admin/'
+WARNING 2020-04-25 17:51:10,749 log 13439 140340824319808 Not Found: /favicon.ico
+WARNING 2020-04-25 17:51:19,500 log 13439 140340824319808 Not Found: /favicon.ico
+WARNING 2020-04-25 17:55:37,969 log 13439 140340824319808 Not Found: /favicon.ico
+WARNING 2020-04-25 17:55:38,569 log 13439 140340824319808 Not Found: /favicon.ico
+ERROR 2020-04-25 18:00:25,871 log 13439 140340824319808 Internal Server Error: /userprofile/edit/5/
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '' for key 'phone'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/sites/hysong.club/project_django/userprofile/views.py", line 125, in profile_edit
+    profile = Profile.objects.create(user=user)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1332, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1062, "Duplicate entry '' for key 'phone'")
+ERROR 2020-04-25 18:00:31,056 log 13439 140340824319808 Internal Server Error: /userprofile/edit/5/
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '' for key 'phone'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/sites/hysong.club/project_django/userprofile/views.py", line 125, in profile_edit
+    profile = Profile.objects.create(user=user)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1332, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1062, "Duplicate entry '' for key 'phone'")
+WARNING 2020-04-25 18:00:36,376 log 13439 140340824319808 Not Found: /favicon.ico
+ERROR 2020-04-25 18:00:40,893 log 13439 140340824319808 Internal Server Error: /userprofile/edit/5/
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '' for key 'phone'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/sites/hysong.club/project_django/userprofile/views.py", line 125, in profile_edit
+    profile = Profile.objects.create(user=user)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1332, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1062, "Duplicate entry '' for key 'phone'")
+WARNING 2020-04-25 18:01:02,856 log 13439 140340824319808 Not Found: /favicon.ico
+ERROR 2020-04-25 18:01:08,175 log 13439 140340824319808 Internal Server Error: /userprofile/edit/5/
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '' for key 'phone'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/sites/hysong.club/project_django/userprofile/views.py", line 125, in profile_edit
+    profile = Profile.objects.create(user=user)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1332, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1062, "Duplicate entry '' for key 'phone'")
+ERROR 2020-04-25 18:02:55,462 log 13439 140340824319808 Internal Server Error: /userprofile/edit/5/
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '' for key 'phone'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/sites/hysong.club/project_django/userprofile/views.py", line 125, in profile_edit
+    profile = Profile.objects.create(user=user)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1332, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1062, "Duplicate entry '' for key 'phone'")
+ERROR 2020-04-25 18:03:09,497 log 13439 140340824319808 Internal Server Error: /userprofile/edit/6/
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '' for key 'phone'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/contrib/auth/decorators.py", line 21, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/home/sites/hysong.club/project_django/userprofile/views.py", line 125, in profile_edit
+    profile = Profile.objects.create(user=user)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/query.py", line 422, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 741, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 779, in save_base
+    force_update, using, update_fields,
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 870, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/base.py", line 908, in _do_insert
+    using=using, raw=raw)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/query.py", line 1186, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/sql/compiler.py", line 1332, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/backends/mysql/base.py", line 71, in execute
+    return self.cursor.execute(query, args)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+django.db.utils.IntegrityError: (1062, "Duplicate entry '' for key 'phone'")
+ERROR 2020-04-25 18:57:34,076 log 16834 140340824319808 Internal Server Error: /article/article_detail/14/
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/smartif.py", line 175, in translate_token
+    op = OPERATORS[token]
+KeyError: '{{'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/article/views.py", line 131, in article_detail
+    return render(request, 'article/detail.html', context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loaders/cached.py", line 54, in get_template
+    template = super().get_template(template_name, skip)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/defaulttags.py", line 951, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/defaulttags.py", line 884, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/smartif.py", line 166, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/smartif.py", line 177, in translate_token
+    return self.create_var(token)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/defaulttags.py", line 887, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 663, in __init__
+    "from '%s'" % (token[upto:], token))
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '{{' from '{{'
+ERROR 2020-04-25 19:01:59,903 log 17206 140340824319808 Internal Server Error: /userprofile/register/
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/userprofile/views.py", line 69, in user_register
+    return JsonResponse(msg, ensure_ascii=False)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/http/response.py", line 559, in __init__
+    super().__init__(content=data, **kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/http/response.py", line 289, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ensure_ascii'
+ERROR 2020-04-25 19:03:29,116 log 17206 140340824319808 Internal Server Error: /article/index/
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/article/views.py", line 55, in article_index
+    return render(request, 'article/index.html', context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 987, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/fields/files.py", line 61, in url
+    self._require_file()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/fields/files.py", line 38, in _require_file
+    raise ValueError("The '%s' attribute has no file associated with it." % self.field.name)
+ValueError: The 'avatar' attribute has no file associated with it.
+ERROR 2020-04-25 19:03:45,092 log 17206 140340824319808 Internal Server Error: /userprofile/fix_bug/9
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/userprofile/views.py", line 164, in fix_bug
+    profile = Profile.objects.get(user_id = id)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/query.py", line 408, in get
+    self.model._meta.object_name
+userprofile.models.Profile.DoesNotExist: Profile matching query does not exist.
+WARNING 2020-04-25 19:46:50,724 log 17206 140340824319808 Bad Request: /
+WARNING 2020-04-25 20:19:53,171 log 17711 140340824319808 Not Found: /userprofile/fix_bug/9
+WARNING 2020-04-25 20:19:57,593 log 17711 140340824319808 Not Found: /userprofile/fix_bug/9
+ERROR 2020-04-25 20:21:36,703 log 17711 140340824319808 Internal Server Error: /article/index/
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/article/views.py", line 55, in article_index
+    return render(request, 'article/index.html', context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 987, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/fields/files.py", line 61, in url
+    self._require_file()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/fields/files.py", line 38, in _require_file
+    raise ValueError("The '%s' attribute has no file associated with it." % self.field.name)
+ValueError: The 'avatar' attribute has no file associated with it.
+ERROR 2020-04-25 20:24:11,295 log 17711 140340824319808 Internal Server Error: /article/index/
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/article/views.py", line 55, in article_index
+    return render(request, 'article/index.html', context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 987, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/fields/files.py", line 61, in url
+    self._require_file()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/fields/files.py", line 38, in _require_file
+    raise ValueError("The '%s' attribute has no file associated with it." % self.field.name)
+ValueError: The 'avatar' attribute has no file associated with it.
+ERROR 2020-04-25 20:24:16,126 log 17711 140340824319808 Internal Server Error: /article/index/
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/article/views.py", line 55, in article_index
+    return render(request, 'article/index.html', context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 987, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/fields/files.py", line 61, in url
+    self._require_file()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/fields/files.py", line 38, in _require_file
+    raise ValueError("The '%s' attribute has no file associated with it." % self.field.name)
+ValueError: The 'avatar' attribute has no file associated with it.
+ERROR 2020-04-25 20:24:35,255 log 17921 140340824319808 Internal Server Error: /article/index/
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/article/views.py", line 55, in article_index
+    return render(request, 'article/index.html', context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 987, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/fields/files.py", line 61, in url
+    self._require_file()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/fields/files.py", line 38, in _require_file
+    raise ValueError("The '%s' attribute has no file associated with it." % self.field.name)
+ValueError: The 'avatar' attribute has no file associated with it.
+ERROR 2020-04-25 20:24:39,665 log 17921 140340824319808 Internal Server Error: /article/index/
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'ImageFieldFile' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/sites/hysong.club/project_django/article/views.py", line 55, in article_index
+    return render(request, 'article/index.html', context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 904, in render_annotated
+    return self.render(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 987, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/fields/files.py", line 61, in url
+    self._require_file()
+  File "/home/sites/hysong.club/env/lib/python3.6/site-packages/django/db/models/fields/files.py", line 38, in _require_file
+    raise ValueError("The '%s' attribute has no file associated with it." % self.field.name)
+ValueError: The 'avatar' attribute has no file associated with it.
+WARNING 2020-04-25 20:32:14,147 log 18382 140340824319808 Bad Request: /
+WARNING 2020-04-25 20:42:05,735 log 18382 140340824319808 Bad Request: /
+WARNING 2020-04-25 21:46:52,796 log 18382 140340824319808 Bad Request: /
+WARNING 2020-04-25 22:50:44,955 log 18382 140340824319808 Bad Request: /cache/global/img/gs.gif
+WARNING 2020-04-25 23:07:24,332 log 18382 140340824319808 Bad Request: /
+WARNING 2020-04-25 23:21:51,575 log 18382 140340824319808 Bad Request: /

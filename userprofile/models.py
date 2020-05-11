@@ -11,7 +11,7 @@ class Profile(models.Model):
     #生日
     birth = models.CharField(max_length=20, blank=True)
     #手机
-    phone = models.CharField(max_length=20, unique=True, blank=True)
+    phone = models.CharField(max_length=20,  blank=True)
     #头像
     avatar = models.ImageField(upload_to='avatar/%Y%m%d', blank=True)
     #个人简介
